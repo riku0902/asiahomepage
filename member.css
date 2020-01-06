@@ -40,9 +40,7 @@
     align-items: center;
 }
 
-.footer{
-    margin-top:50px;
-}
+
 
 @media screen and (max-width:992px){
     .members img{
