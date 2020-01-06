@@ -373,6 +373,76 @@ text-decoration: none;
     margin-bottom: 15px;
   }
 
+  .child-2 img:nth-of-type(1){
+    position: absolute;
+    margin-top:100px;
+    width:40%;
+    right: 150px;
+    height:auto;
+
+  }
+
+  .child-2 img:nth-of-type(2){
+    position: absolute;
+    margin-top:150px;
+    width: 30%;
+    left: 175px;
+    height:auto;
+   
+    
+  }
+
+  .child-2 img:nth-of-type(3){
+    position: absolute;
+    margin-top:295px;
+    width: 30%;
+    right: 118px;
+    height:auto;
+   
+    
+  }
+
+  .child-2 img:nth-of-type(4){
+    position: absolute;
+    margin-top:380px;
+    width: 30%;
+    left: 200px;
+    height:auto;
+   
+    
+  }
+
+  .child-3 img:nth-of-type(1){
+    position: absolute;
+    margin-top:750px;
+    width: 35%;
+    right: 65px;
+    height:auto;
+    
+  }
+
+  .child-3 img:nth-of-type(2){
+    position: absolute;
+    margin-top:900px;
+    width: 30%;
+    right: 111px;
+    height:auto;
+   
+    
+    
+  }
+
+  .child-3 img:nth-of-type(3){
+    position: absolute;
+    margin-top:780px;
+    width: 30%;
+    left: 193px;
+    height:auto;
+    
+   
+    
+  }
+
   .items{
     font-size:20px;
     max-width: 480px;
@@ -409,8 +479,11 @@ text-decoration: none;
   background-color:rgba(51,153,255,0.5);
   text-decoration: none;
   }
-}
 
+  .footer{
+    margin-top:1200px;
+  }
+}
 
 @media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
    .title p{
@@ -442,6 +515,76 @@ text-decoration: none;
     /* margin:-12px; */
     text-decoration: none;
     margin-bottom: 15px;
+  }
+
+  .child-2 img:nth-of-type(1){
+    position: absolute;
+    margin-top:100px;
+    width:40%;
+    right: 150px;
+    height:auto;
+
+  }
+
+  .child-2 img:nth-of-type(2){
+    position: absolute;
+    margin-top:150px;
+    width: 30%;
+    left: 175px;
+    height:auto;
+   
+    
+  }
+
+  .child-2 img:nth-of-type(3){
+    position: absolute;
+    margin-top:295px;
+    width: 30%;
+    right: 118px;
+    height:auto;
+   
+    
+  }
+
+  .child-2 img:nth-of-type(4){
+    position: absolute;
+    margin-top:380px;
+    width: 30%;
+    left: 200px;
+    height:auto;
+   
+    
+  }
+
+  .child-3 img:nth-of-type(1){
+    position: absolute;
+    margin-top:750px;
+    width: 35%;
+    right: 65px;
+    height:auto;
+    
+  }
+
+  .child-3 img:nth-of-type(2){
+    position: absolute;
+    margin-top:900px;
+    width: 30%;
+    right: 111px;
+    height:auto;
+   
+    
+    
+  }
+
+  .child-3 img:nth-of-type(3){
+    position: absolute;
+    margin-top:780px;
+    width: 30%;
+    left: 193px;
+    height:auto;
+    
+   
+    
   }
 
 
