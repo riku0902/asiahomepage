@@ -1,0 +1,78 @@
+/* メンバーカード */
+.members{ 
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+} 
+
+
+.staff{
+    margin-top:70px;
+    background-color: black;
+}
+  
+
+.year{
+    height: 50px;
+    line-height: 50px;
+    padding-left:20px ;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: black;
+}
+
+.uniform-number{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.footer{
+    background-color:#006400;
+}
+
+.asia-u{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:992px){
+    .members img{
+        object-fit: cover;
+        height:370px;
+    }
+    
+    .members p{
+        font-size:80px;
+    }
+    
+}
+
+@media screen and (max-width: 767px){
+    .members img{ 
+        object-fit: cover;
+        height:300px;
+    }
+    
+    .members p{
+        font-size:70px;
+    }
+    
+}
+
+@media screen and (max-width: 479px){
+    .members img{
+        object-fit: cover;
+        height:200px;
+    }
+    
+    .members p{
+        font-size: 50px;
+    }
+    
+}
+

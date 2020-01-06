@@ -1,0 +1,65 @@
+.schedule{ 
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+} 
+
+
+.month{
+    text-align:center;
+    margin-top:50px;
+}
+
+.tbl{
+    margin-top:50px;
+    margin-left:80px;
+    margin-right:80px;
+
+}
+
+.sunday{
+    background-color:#ffbeda;
+}
+
+.saturday{
+    background-color:#bad3ff;
+}
+
+@media screen and (max-width:992px){
+    .schedule img{
+        object-fit: cover;
+        height:370px;
+    }
+    
+    .schedule p{
+        font-size:80px;
+    }
+    
+}
+
+@media screen and (max-width: 767px){
+    .schedule img{ 
+        object-fit: cover;
+        height:300px;
+    }
+    
+    .schedule p{
+        font-size:70px;
+    }
+    
+}
+
+@media screen and (max-width: 479px){
+    .schedule img{
+        object-fit: cover;
+        height:200px;
+    }
+    
+    .schedule p{
+        font-size: 50px;
+    }
+    
+}

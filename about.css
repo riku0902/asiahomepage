@@ -1,0 +1,113 @@
+
+.team{
+    padding-left:20px ;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top:50px ;
+    background-color: black;
+}
+
+.about{ 
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+} 
+
+
+
+.tbl{
+   margin-left:90px;
+   margin-right:90px;
+   margin-top:20px;
+   
+}
+
+.table-bordered{
+    width:50%;
+}
+
+.tbl td a{
+    text-decoration:none;
+}
+
+.access{
+    height: 50px;
+    line-height: 50px;
+    padding-left:20px ;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: black;
+}
+
+.location{
+    text-align: center;
+    list-style-type:none;
+    font-size:20px;
+    margin-top:30px;
+}
+
+.g-map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:40px;
+}
+
+.footer{
+    background-color:#006400;
+}
+
+@media screen and (max-width:992px){
+    .about img{
+        object-fit: cover;
+        height:370px;
+    }
+    
+    .about p{
+        font-size:80px;
+    }
+    
+}
+
+@media screen and (max-width: 767px){
+    .about img{ 
+        object-fit: cover;
+        height:300px;
+    }
+    
+    .about p{
+        font-size:70px;
+    }
+    
+}
+
+@media screen and (max-width: 479px){
+    .about img{
+        object-fit: cover;
+        height:200px;
+    }
+    
+    .about p{
+        font-size: 50px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+ 
